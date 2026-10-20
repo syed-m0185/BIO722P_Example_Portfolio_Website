@@ -44,3 +44,12 @@
     -webkit-mask-image: var(--md-admonition-icon--task);
             mask-image: var(--md-admonition-icon--task);
   }
+/* Heading colour and rounded images */
+.md-typeset h1,
+.md-typeset h2 {
+  color: #245b55;
+}
+
+.md-typeset img {
+  border-radius: 8px;
+}

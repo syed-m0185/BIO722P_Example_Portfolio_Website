@@ -1,8 +1,11 @@
-site_name: Personal Portfolio
+site_name: Syed Moinuddin Bioinformatics Portfolio
 
 theme:
   name: material
   language: en
+  palette: 
+      primary: teal
+      accent: deep orange
   features:
     - content.tooltips
     - navigation.instant
@@ -35,6 +38,6 @@ extra_css:
 nav:
   - Home: 
     - index.md
-
   - Experience:
     -  Unix & Genomics: experience/Unix_and_Genomics.md
+    
